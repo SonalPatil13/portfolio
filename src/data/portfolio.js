@@ -209,21 +209,6 @@ export const education = [
   },
 ];
 
-export const certifications = [
-  {
-    title: "Data Analyst Trainee",
-    org: "CSRBOX – IBM SkillBuild",
-    date: "June – July 2024",
-    highlight: "Analyzed 1M+ row datasets using Power BI and advanced SQL",
-  },
-  {
-    title: "Data & Business Analytics",
-    org: "Jobaaj Learning",
-    date: "2024",
-    highlight: "Python, SQL, Excel, Power BI — EDA, data cleaning, reporting",
-  },
-];
-
 export const currentlyExploring = [
   {
     topic: "Multi-Agent Orchestration",
@@ -255,11 +240,11 @@ export const principles = [
 ];
 
 export const mentorInfo = {
-  name: "Khushboo Satasiya Patel",
+  name: "Khushboo Satasiya ",
   role: "AI Lead & Engineering Manager",
   company: "Adrta Technologies",
-  experience: "7+ Years Experience in AI & Software Engineering",
-  tenure: "Guided & Mentored for 7+ Years",
+  experience: "10+ Years Experience in AI & Software Engineering",
+  tenure: "Guided & Mentored for 10+ Years",
   summary: `Khushboo Satasiya has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
   contributions: [
     {
