@@ -253,3 +253,31 @@ export const principles = [
   { title: "Safety by Design", body: "I think about failure modes before I think about features. Good AI systems are built knowing what happens when the model is wrong or the user is adversarial." },
   { title: "Build to Understand", body: "I've built RAG pipelines without high-level abstractions on purpose — because understanding how every component works is the foundation of good engineering decisions." },
 ];
+
+export const mentorInfo = {
+  name: "Sneh Patel",
+  role: "AI Lead & Engineering Manager",
+  company: "Adrta Technologies",
+  experience: "3+ Years Experience in AI & Software Engineering",
+  tenure: "Guided & Mentored for 2+ Years",
+  summary: `Sneh has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
+  contributions: [
+    {
+      title: "Foundational Mentorship from Scratch",
+      desc: "Nurtured my engineering foundation from zero — transforming theoretical concepts into hands-on architectural capability.",
+    },
+    {
+      title: "Production & Edge-Case Mindset",
+      desc: "Taught me to design for production failure modes, latency bottlenecks, caching, and robust error recovery.",
+    },
+    {
+      title: "System Design & Architecture Guidance",
+      desc: "Steered technical decisions on stateful graphs, vector retrieval optimization, and hybrid LLM fallback strategies.",
+    },
+    {
+      title: "Empowering Engineering Autonomy",
+      desc: "Provided constant encouragement and room for technical experimentation, helping me lead solutions independently.",
+    },
+  ],
+  quote: "Real-world AI isn't just about calling models — it's about robust system design, handling edge cases gracefully, and building architectures you can explain and maintain.",
+};

@@ -23,7 +23,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <nav className="flex flex-wrap items-center gap-6 justify-center">
-            {['About', 'Skills', 'Projects', 'Architecture', 'Case Studies', 'Contact'].map((item) => (
+            {['About', 'Skills', 'Projects', 'Architecture', 'Case Studies', 'Mentorship', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase().replace(' ', '-')}`}

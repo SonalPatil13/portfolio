@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import ArchitectureShowcase from './components/ArchitectureShowcase';
 import CaseStudies from './components/CaseStudies';
+import Mentorship from './components/Mentorship';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ export default function App() {
         <Projects />
         <ArchitectureShowcase />
         <CaseStudies />
+        <Mentorship />
         <Contact />
       </main>
       <Footer />
