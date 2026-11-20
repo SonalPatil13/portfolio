@@ -255,12 +255,12 @@ export const principles = [
 ];
 
 export const mentorInfo = {
-  name: "Sneh Patel",
+  name: "Khush Patel",
   role: "AI Lead & Engineering Manager",
   company: "Adrta Technologies",
   experience: "3+ Years Experience in AI & Software Engineering",
   tenure: "Guided & Mentored for 2+ Years",
-  summary: `Sneh has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
+  summary: `Khush has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
   contributions: [
     {
       title: "Foundational Mentorship from Scratch",
