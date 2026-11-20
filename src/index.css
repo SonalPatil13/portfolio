@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ivory text-navy font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    @apply bg-teal text-ivory;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-ivory;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-teal rounded-full;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-24 xl:px-32;
+  }
+
+  .section-title {
+    @apply font-display text-3xl md:text-4xl text-navy leading-tight;
+  }
+
+  .tag {
+    @apply inline-block text-xs font-medium px-3 py-1 rounded-full bg-stone text-navy/70 border border-stone-dark/30;
+  }
+
+  .tag-teal {
+    @apply inline-block text-xs font-medium px-3 py-1 rounded-full bg-teal/10 text-teal border border-teal/20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-teal text-ivory font-medium rounded-lg
+           hover:bg-teal-light transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-teal text-teal font-medium rounded-lg
+           hover:bg-teal hover:text-ivory transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white/80 border border-stone/60 rounded-2xl p-6 hover:border-teal/30
+           hover:shadow-lg transition-all duration-300 backdrop-blur-sm;
+  }
+
+  .nav-link {
+    @apply text-sm font-medium text-navy/60 hover:text-teal transition-colors duration-200;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-teal to-teal-light bg-clip-text text-transparent;
+  }
+}
