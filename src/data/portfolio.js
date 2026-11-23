@@ -1,7 +1,7 @@
-// Portfolio Data — Nyasa Lohiya (Gire)
+// Portfolio Data — Sonal Patil (Gire)
 export const perSonalInfo = {
-  name: "Nyasa Lohiya",
-  title: "ML Engineer",
+  name: "Sonal Patil",
+  title: "AI Engineer",
   tagline: "Building intelligent systems for real-world problems.",
   subTagline: "Specializing in AI · Agentic AI · RAG Systems · Document Intelligence",
   location: "Ahmedabad, Gujarat, India",
@@ -9,7 +9,7 @@ export const perSonalInfo = {
   phone: "+91-9898292269",
   linkedin: "https://www.linkedin.com/in/Sonalpatil-AIengineer/",
   github: "https://github.com/SonalPatil13",
-  about: `I'm an ML Engineer who builds practical, production-oriented AI systems — not just prototypes. 
+  about: `I'm an AI Engineer who builds practical, production-oriented AI systems — not just prototypes. 
   My work spans RAG pipelines, agentic AI, conversational systems and intelligent document automation that 
   enterprise teams actually use day to day.
   
@@ -26,7 +26,7 @@ export const perSonalInfo = {
 export const experience = [
   {
     company: "Adrta Technologies Pvt. Ltd",
-    role: "ML Engineer",
+    role: "AI Engineer",
     duration: "June 2025 – Present",
     location: "Ahmedabad, India",
     description: [
@@ -255,12 +255,12 @@ export const principles = [
 ];
 
 export const mentorInfo = {
-  name: "Dharmik Patel",
+  name: "Sneh Patel",
   role: "AI Lead & Engineering Manager",
   company: "Adrta Technologies",
-  experience: "20+ Years Experience in AI & Software Engineering",
-  tenure: "Guided & Mentored for 20+ Years",
-  summary: `Dharmik Patel has been my engineering manager and primary mentor, leading and supporting me from the very start of my ML Engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
+  experience: "2.5+ Years Experience in AI & Software Engineering",
+  tenure: "Guided & Mentored for 2.5+ Years",
+  summary: `Sneh Patel has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI Engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
   contributions: [
     {
       title: "Foundational Mentorship from Scratch",
