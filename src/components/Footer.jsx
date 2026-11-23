@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="text-white/70 font-medium text-sm">Saxi Patel</p>
-              <p className="text-white/30 text-xs">AI Engineer</p>
+              <p className="text-white/30 text-xs">AI/ML Engineer</p>
             </div>
           </div>
 
