@@ -209,6 +209,21 @@ export const education = [
   },
 ];
 
+export const certifications = [
+  {
+    title: "Data Analyst Trainee",
+    org: "CSRBOX – IBM SkillBuild",
+    date: "June – July 2024",
+    highlight: "Analyzed 1M+ row datasets using Power BI and advanced SQL",
+  },
+  {
+    title: "Data & Business Analytics",
+    org: "Jobaaj Learning",
+    date: "2024",
+    highlight: "Python, SQL, Excel, Power BI — EDA, data cleaning, reporting",
+  },
+];
+
 export const currentlyExploring = [
   {
     topic: "Multi-Agent Orchestration",
