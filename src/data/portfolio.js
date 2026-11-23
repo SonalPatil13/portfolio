@@ -1,15 +1,15 @@
-// Portfolio Data — Sonal Patil (Gire)
+// Portfolio Data — SaxiPatil (Gire)
 export const perSonalInfo = {
-  name: "Sonal Patil",
-  title: "GenAI Engineer",
+  name: "SaxiPatil",
+  title: "AI Engineer",
   tagline: "Building intelligent systems for real-world problems.",
-  subTagline: "Specializing in GenAI · Agentic AI · RAG Systems · Document Intelligence",
+  subTagline: "Specializing in AI · Agentic AI · RAG Systems · Document Intelligence",
   location: "Ahmedabad, Gujarat, India",
   email: "sonalpdg1306@gmail.com",
   phone: "+91-9898292269",
-  linkedin: "https://www.linkedin.com/in/Sonalpatil-genaiengineer/",
+  linkedin: "https://www.linkedin.com/in/Sonalpatil-AIengineer/",
   github: "https://github.com/SonalPatil13",
-  about: `I'm an GenAI Engineer who builds practical, production-oriented AI systems — not just prototypes. 
+  about: `I'm an AI Engineer who builds practical, production-oriented AI systems — not just prototypes. 
   My work spans RAG pipelines, agentic AI, conversational systems and intelligent document automation that 
   enterprise teams actually use day to day.
   
@@ -26,7 +26,7 @@ export const perSonalInfo = {
 export const experience = [
   {
     company: "Adrta Technologies Pvt. Ltd",
-    role: "GenAI Engineer",
+    role: "AI Engineer",
     duration: "June 2025 – Present",
     location: "Ahmedabad, India",
     description: [
@@ -260,7 +260,7 @@ export const mentorInfo = {
   company: "Adrta Technologies",
   experience: "10+ Years Experience in AI & Software Engineering",
   tenure: "Guided & Mentored for 10+ Years",
-  summary: `Sneh and Khush Patel has been my engineering manager and primary mentor, leading and supporting me from the very start of my GenAI Engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
+  summary: `Sneh and Khush Patel has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI Engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
   contributions: [
     {
       title: "Foundational Mentorship from Scratch",
