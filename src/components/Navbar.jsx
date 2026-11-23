@@ -42,7 +42,7 @@ export default function Navbar() {
               <span className="text-ivory font-display font-bold text-sm">S</span>
             </div>
             <span className="font-display font-semibold text-navy text-lg group-hover:text-teal transition-colors">
-              Saxi Patel
+              Nyasa Lohiya
             </span>
           </a>
 

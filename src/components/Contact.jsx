@@ -36,7 +36,7 @@ export default function Contact() {
             Let's build something meaningful together.
           </p>
           <p className="text-white/40 max-w-lg mb-8 leading-relaxed text-sm">
-            Whether you're looking for an AI/ML Engineer for your team, want to collaborate on
+            Whether you're looking for an ML Engineer for your team, want to collaborate on
             a challenging problem, or just want to talk about AI systems — I'd love to hear
             from you.
           </p>

@@ -1,7 +1,7 @@
-// Portfolio Data — Saxi Patel (Gire)
+// Portfolio Data — Nyasa Lohiya (Gire)
 export const perSonalInfo = {
-  name: "Saxi Patel",
-  title: "AI/ML Engineer",
+  name: "Nyasa Lohiya",
+  title: "ML Engineer",
   tagline: "Building intelligent systems for real-world problems.",
   subTagline: "Specializing in AI · Agentic AI · RAG Systems · Document Intelligence",
   location: "Ahmedabad, Gujarat, India",
@@ -9,7 +9,7 @@ export const perSonalInfo = {
   phone: "+91-9898292269",
   linkedin: "https://www.linkedin.com/in/Sonalpatil-AIengineer/",
   github: "https://github.com/SonalPatil13",
-  about: `I'm an AI/ML Engineer who builds practical, production-oriented AI systems — not just prototypes. 
+  about: `I'm an ML Engineer who builds practical, production-oriented AI systems — not just prototypes. 
   My work spans RAG pipelines, agentic AI, conversational systems and intelligent document automation that 
   enterprise teams actually use day to day.
   
@@ -26,7 +26,7 @@ export const perSonalInfo = {
 export const experience = [
   {
     company: "Adrta Technologies Pvt. Ltd",
-    role: "AI/ML Engineer",
+    role: "ML Engineer",
     duration: "June 2025 – Present",
     location: "Ahmedabad, India",
     description: [
@@ -255,12 +255,12 @@ export const principles = [
 ];
 
 export const mentorInfo = {
-  name: "Rutvik Patel",
+  name: "Dharmik Patel",
   role: "AI Lead & Engineering Manager",
   company: "Adrta Technologies",
   experience: "20+ Years Experience in AI & Software Engineering",
   tenure: "Guided & Mentored for 20+ Years",
-  summary: `Rutvik Patel has been my engineering manager and primary mentor, leading and supporting me from the very start of my AI/ML Engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
+  summary: `Dharmik Patel has been my engineering manager and primary mentor, leading and supporting me from the very start of my ML Engineering journey. His leadership, architectural insights, and continuous guidance have helped me build a deep first-principles understanding of AI systems, enterprise RAG, and production pipelines.`,
   contributions: [
     {
       title: "Foundational Mentorship from Scratch",

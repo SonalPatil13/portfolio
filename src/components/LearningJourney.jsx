@@ -18,7 +18,7 @@ export default function LearningJourney() {
               <em className="not-italic text-teal">knowledge on right now</em>
             </h2>
             <p className="text-navy/50 leading-relaxed max-w-lg">
-              The frontier of AI/ML Engineering moves fast. These are the areas I'm actively
+              The frontier of ML Engineering moves fast. These are the areas I'm actively
               investing time in — reading papers, building experiments, and forming opinions on.
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function LearningJourney() {
                 },
                 {
                   period: 'Early 2025',
-                  title: 'AI/ML Engineering Entry — First Principles',
+                  title: 'ML Engineering Entry — First Principles',
                   body: 'Started building RAG pipelines without frameworks first — to truly understand chunking, embedding, and vector retrieval from scratch. This foundation proved invaluable.',
                   tags: ['RAG', 'ChromaDB', 'Embeddings', 'Prompt Engineering'],
                 },
