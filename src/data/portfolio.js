@@ -1,6 +1,6 @@
-// Portfolio Data — SaxiPatil (Gire)
+// Portfolio Data — Saxi Patel (Gire)
 export const perSonalInfo = {
-  name: "SaxiPatil",
+  name: "Saxi Patel",
   title: "AI Engineer",
   tagline: "Building intelligent systems for real-world problems.",
   subTagline: "Specializing in AI · Agentic AI · RAG Systems · Document Intelligence",

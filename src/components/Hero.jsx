@@ -124,7 +124,7 @@ export default function Hero() {
                 <span className="font-display text-3xl font-bold text-teal">SP</span>
               </div>
 
-              <h3 className="font-semibold text-navy text-lg mb-1">SaxiPatil</h3>
+              <h3 className="font-semibold text-navy text-lg mb-1">Saxi Patel</h3>
               <p className="text-teal text-sm font-medium mb-6">AI Engineer @ Adrta Technologies</p>
 
               {/* Key stats */}

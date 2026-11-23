@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-ivory font-display font-bold text-sm">S</span>
             </div>
             <div>
-              <p className="text-white/70 font-medium text-sm">SaxiPatil</p>
+              <p className="text-white/70 font-medium text-sm">Saxi Patel</p>
               <p className="text-white/30 text-xs">AI Engineer</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-white/20 text-xs">
-            © {year} SaxiPatil. All rights reserved.
+            © {year} Saxi Patel. All rights reserved.
           </p>
           <p className="text-white/20 text-xs flex items-center gap-1.5">
             Built with React · Vite · Tailwind CSS · Framer Motion
