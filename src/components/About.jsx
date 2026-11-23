@@ -38,7 +38,7 @@ export default function About() {
           <FadeUp delay={0.2}>
             <div className="space-y-4 text-navy/65 leading-relaxed text-[15px]">
               <p>
-                I'm an AI Engineer who builds practical, production-oriented AI systems — not just prototypes.
+                I'm an GenAI Engineer who builds practical, production-oriented AI systems — not just prototypes.
                 My work spans RAG pipelines, agentic AI, conversational systems and intelligent document
                 automation that enterprise teams actually use day to day.
               </p>

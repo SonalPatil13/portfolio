@@ -28,7 +28,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal/10 border border-teal/20 text-teal text-sm font-medium mb-8"
             >
               <span className="w-2 h-2 rounded-full bg-teal animate-pulse" />
-              AI Engineer · Ahmedabad, India
+              GenAI Engineer · Ahmedabad, India
             </motion.div>
 
             {/* Name */}
@@ -125,7 +125,7 @@ export default function Hero() {
               </div>
 
               <h3 className="font-semibold text-navy text-lg mb-1">Sonal Patil</h3>
-              <p className="text-teal text-sm font-medium mb-6">AI Engineer @ Adrta Technologies</p>
+              <p className="text-teal text-sm font-medium mb-6">GenAI Engineer @ Adrta Technologies</p>
 
               {/* Key stats */}
               <div className="grid grid-cols-2 gap-4 mb-6">
