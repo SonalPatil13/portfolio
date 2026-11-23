@@ -56,7 +56,7 @@ export default function Contact() {
                 {
                   icon: Linkedin,
                   label: 'LinkedIn',
-                  value: 'Sonalpatil-AIengineer',
+                  value: 'sonalpatil-genaiengineer',
                   href: perSonalInfo.linkedin,
                 },
                 {
