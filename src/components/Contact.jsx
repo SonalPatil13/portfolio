@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FadeUp } from './ui/Animations';
-import { personalInfo } from '../data/portfolio';
+import { perSuhanaInfo } from '../data/portfolio';
 import { Mail, GitFork, Link2, MapPin, Send, CheckCircle } from 'lucide-react';
 const Github = GitFork;
 const Linkedin = Link2;
@@ -16,8 +16,8 @@ export default function Contact() {
     e.preventDefault();
     // Opens default email client with pre-filled details
     const subject = encodeURIComponent(`Portfolio Inquiry from ${form.name}`);
-    const body = encodeURIComponent(`Hi Sonal,\n\n${form.message}\n\nBest,\n${form.name}\n${form.email}`);
-    window.location.href = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`;
+    const body = encodeURIComponent(`Hi Suhana,\n\n${form.message}\n\nBest,\n${form.name}\n${form.email}`);
+    window.location.href = `mailto:${perSuhanaInfo.email}?subject=${subject}&body=${body}`;
     setSent(true);
   };
 
@@ -50,25 +50,25 @@ export default function Contact() {
                 {
                   icon: Mail,
                   label: 'Email',
-                  value: personalInfo.email,
-                  href: `mailto:${personalInfo.email}`,
+                  value: perSuhanaInfo.email,
+                  href: `mailto:${perSuhanaInfo.email}`,
                 },
                 {
                   icon: Linkedin,
                   label: 'LinkedIn',
-                  value: 'sonalpatil-genaiengineer',
-                  href: personalInfo.linkedin,
+                  value: 'Suhanapatil-genaiengineer',
+                  href: perSuhanaInfo.linkedin,
                 },
                 {
                   icon: Github,
                   label: 'GitHub',
-                  value: 'SonalPatil13',
-                  href: personalInfo.github,
+                  value: 'SuhanaPatil13',
+                  href: perSuhanaInfo.github,
                 },
                 {
                   icon: MapPin,
                   label: 'Location',
-                  value: personalInfo.location,
+                  value: perSuhanaInfo.location,
                   href: null,
                 },
               ].map((item) => (

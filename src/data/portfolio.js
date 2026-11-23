@@ -1,14 +1,14 @@
-// Portfolio Data — Sonal Patil (Gire)
-export const personalInfo = {
-  name: "Sonal Patil",
+// Portfolio Data — Suhana Patil (Gire)
+export const perSuhanaInfo = {
+  name: "Suhana Patil",
   title: "GenAI Engineer",
   tagline: "Building intelligent systems for real-world problems.",
   subTagline: "Specializing in GenAI · Agentic AI · RAG Systems · Document Intelligence",
   location: "Ahmedabad, Gujarat, India",
-  email: "sonalpdg1306@gmail.com",
+  email: "Suhanapdg1306@gmail.com",
   phone: "+91-9898292269",
-  linkedin: "https://www.linkedin.com/in/sonalpatil-genaiengineer/",
-  github: "https://github.com/SonalPatil13",
+  linkedin: "https://www.linkedin.com/in/Suhanapatil-genaiengineer/",
+  github: "https://github.com/SuhanaPatil13",
   about: `I'm an GenAI Engineer who builds practical, production-oriented AI systems — not just prototypes. 
   My work spans RAG pipelines, agentic AI, conversational systems and intelligent document automation that 
   enterprise teams actually use day to day.

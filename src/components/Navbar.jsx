@@ -30,11 +30,10 @@ export default function Navbar() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
             ? 'bg-ivory/95 backdrop-blur-md border-b border-stone/40 shadow-sm'
             : 'bg-transparent'
-        }`}
+          }`}
       >
         <div className="section-padding max-w-7xl mx-auto flex items-center justify-between h-16">
           {/* Logo */}
@@ -43,7 +42,7 @@ export default function Navbar() {
               <span className="text-ivory font-display font-bold text-sm">S</span>
             </div>
             <span className="font-display font-semibold text-navy text-lg group-hover:text-teal transition-colors">
-              Sonal Patil
+              Suhana Patil
             </span>
           </a>
 
@@ -59,7 +58,7 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-            <a href="mailto:sonalpdg1306@gmail.com" className="btn-primary text-sm py-2 px-4">
+            <a href="mailto:Suhanapdg1306@gmail.com" className="btn-primary text-sm py-2 px-4">
               Get in Touch
             </a>
           </nav>
@@ -96,7 +95,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="mailto:sonalpdg1306@gmail.com"
+                href="mailto:Suhanapdg1306@gmail.com"
                 className="btn-primary w-fit mt-4"
                 onClick={() => setMenuOpen(false)}
               >

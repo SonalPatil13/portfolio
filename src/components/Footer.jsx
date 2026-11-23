@@ -1,7 +1,7 @@
 import { GitFork, Link2, Mail, Heart } from 'lucide-react';
 const Github = GitFork;
 const Linkedin = Link2;
-import { personalInfo } from '../data/portfolio';
+import { perSuhanaInfo } from '../data/portfolio';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-ivory font-display font-bold text-sm">S</span>
             </div>
             <div>
-              <p className="text-white/70 font-medium text-sm">Sonal Patil</p>
+              <p className="text-white/70 font-medium text-sm">Suhana Patil</p>
               <p className="text-white/30 text-xs">GenAI Engineer</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Footer() {
           {/* Socials */}
           <div className="flex items-center gap-4">
             <a
-              href={personalInfo.github}
+              href={perSuhanaInfo.github}
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg bg-white/5 hover:bg-teal/20 flex items-center justify-center transition-colors"
@@ -45,7 +45,7 @@ export default function Footer() {
               <Github size={15} className="text-white/50 hover:text-teal-light" />
             </a>
             <a
-              href={personalInfo.linkedin}
+              href={perSuhanaInfo.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg bg-white/5 hover:bg-teal/20 flex items-center justify-center transition-colors"
@@ -53,7 +53,7 @@ export default function Footer() {
               <Linkedin size={15} className="text-white/50 hover:text-teal-light" />
             </a>
             <a
-              href={`mailto:${personalInfo.email}`}
+              href={`mailto:${perSuhanaInfo.email}`}
               className="w-8 h-8 rounded-lg bg-white/5 hover:bg-teal/20 flex items-center justify-center transition-colors"
             >
               <Mail size={15} className="text-white/50 hover:text-teal-light" />
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-white/20 text-xs">
-            © {year} Sonal Patil. All rights reserved.
+            © {year} Suhana Patil. All rights reserved.
           </p>
           <p className="text-white/20 text-xs flex items-center gap-1.5">
             Built with React · Vite · Tailwind CSS · Framer Motion

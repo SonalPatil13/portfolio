@@ -1,5 +1,5 @@
 import { FadeUp, FadeIn } from './ui/Animations';
-import { personalInfo, principles } from '../data/portfolio';
+import { perSuhanaInfo, principles } from '../data/portfolio';
 import { Shield, Layers, BarChart2, BookOpen, User } from 'lucide-react';
 
 const iconMap = {
@@ -64,10 +64,10 @@ export default function About() {
 
           <FadeUp delay={0.35}>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href={personalInfo.github} target="_blank" rel="noopener noreferrer" className="btn-outline text-sm py-2 px-4">
+              <a href={perSuhanaInfo.github} target="_blank" rel="noopener noreferrer" className="btn-outline text-sm py-2 px-4">
                 GitHub Profile
               </a>
-              <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="btn-outline text-sm py-2 px-4">
+              <a href={perSuhanaInfo.linkedin} target="_blank" rel="noopener noreferrer" className="btn-outline text-sm py-2 px-4">
                 LinkedIn
               </a>
             </div>
