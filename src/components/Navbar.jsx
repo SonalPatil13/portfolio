@@ -42,7 +42,7 @@ export default function Navbar() {
               <span className="text-ivory font-display font-bold text-sm">S</span>
             </div>
             <span className="font-display font-semibold text-navy text-lg group-hover:text-teal transition-colors">
-              Shubhangi Patil
+              Sonal Patil
             </span>
           </a>
 
@@ -58,7 +58,7 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
-            <a href="mailto:Shubhangipdg1306@gmail.com" className="btn-primary text-sm py-2 px-4">
+            <a href="mailto:sonalpdg1306@gmail.com" className="btn-primary text-sm py-2 px-4">
               Get in Touch
             </a>
           </nav>
@@ -95,7 +95,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="mailto:Shubhangipdg1306@gmail.com"
+                href="mailto:sonalpdg1306@gmail.com"
                 className="btn-primary w-fit mt-4"
                 onClick={() => setMenuOpen(false)}
               >

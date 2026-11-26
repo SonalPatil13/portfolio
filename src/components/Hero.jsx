@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { GitFork, Link2, Mail, ArrowDown, MapPin } from 'lucide-react';
 const Github = GitFork;
 const Linkedin = Link2;
-import { perShubhangiInfo } from '../data/portfolio';
+import { perSonalInfo } from '../data/portfolio';
 
 export default function Hero() {
   return (
@@ -38,7 +38,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="font-display text-5xl md:text-6xl lg:text-7xl text-navy leading-[1.08] mb-6"
             >
-              Shubhangi
+              Sonal
               <br />
               <span className="gradient-text">Patil</span>
             </motion.h1>
@@ -50,7 +50,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.35 }}
               className="text-xl md:text-2xl text-navy/70 font-light leading-relaxed mb-3 max-w-xl"
             >
-              {perShubhangiInfo.tagline}
+              {perSonalInfo.tagline}
             </motion.p>
             <motion.p
               initial={{ opacity: 0 }}
@@ -58,7 +58,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="text-sm text-navy/50 tracking-wide mb-10"
             >
-              {perShubhangiInfo.subTagline}
+              {perSonalInfo.subTagline}
             </motion.p>
 
             {/* CTAs */}
@@ -84,7 +84,7 @@ export default function Hero() {
               className="flex items-center gap-5"
             >
               <a
-                href={perShubhangiInfo.github}
+                href={perSonalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-navy/50 hover:text-teal transition-colors text-sm"
@@ -93,7 +93,7 @@ export default function Hero() {
                 <span>GitHub</span>
               </a>
               <a
-                href={perShubhangiInfo.linkedin}
+                href={perSonalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-navy/50 hover:text-teal transition-colors text-sm"
@@ -102,7 +102,7 @@ export default function Hero() {
                 <span>LinkedIn</span>
               </a>
               <a
-                href={`mailto:${perShubhangiInfo.email}`}
+                href={`mailto:${perSonalInfo.email}`}
                 className="flex items-center gap-2 text-navy/50 hover:text-teal transition-colors text-sm"
               >
                 <Mail size={18} />
@@ -124,7 +124,7 @@ export default function Hero() {
                 <span className="font-display text-3xl font-bold text-teal">SP</span>
               </div>
 
-              <h3 className="font-semibold text-navy text-lg mb-1">Shubhangi Patil</h3>
+              <h3 className="font-semibold text-navy text-lg mb-1">Sonal Patil</h3>
               <p className="text-teal text-sm font-medium mb-6">AI Engineer @ Adrta Technologies</p>
 
               {/* Key stats */}
